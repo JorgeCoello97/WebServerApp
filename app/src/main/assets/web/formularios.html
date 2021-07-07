@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FORMULARIOS</title>
+        <link rel="icon" type="image/x-icon" href="favicon.ico" />
+        <link rel="stylesheet" href="css/formularios.css">
+    </head>
+    <body>
+        <div>
+            <h1>FORMULARIOS</h1>
+            <form method="post" action="#">
+                <input type="hidden" name="origin" value="prueba1"/>
+                <h2>PRUEBA 1</h2>
+                <p>NOMBRE: <input type="text" name="nombre" required></p>
+                <p>EDAD: <input type="number" min="18" max="150" name="edad" required></p>
+                <input type="submit" value="Enviar" />                
+            </form>
+            <form method="post" action="#" enctype="multipart/form-data">
+                <input type="hidden" name="origin" value="prueba2"/>
+                <h2>PRUEBA 2</h2>
+                <p>SOLO PDF: <input type="file" name="archivo" accept="application/pdf">
+                <input type="submit" value="Enviar" />
+            </form>
+        </div>
+        <br>
+        
+        <a href="/">IR A PRINCIPAL</a>
+    </body>
+</html>

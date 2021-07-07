@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PruebaWebServer</string>
+
+    <string name="powerOn">Has click debajo para activar el servidor</string>
+    <string name="powerOff">Has click debajo para desactivar el servidor</string>
+    <string name="powerOnBUTTON">ACTIVAR SERVIDOR</string>
+    <string name="powerOffBUTTON">DESACTIVAR SERVIDOR</string>
+</resources>

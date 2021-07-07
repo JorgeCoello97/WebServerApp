@@ -1,0 +1,28 @@
+body {
+    background-color: lightgreen;
+    padding: 5%;
+}
+h1 {
+    margin-bottom: 2em;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+form {
+    margin: 0 auto;
+    width: fit-content;
+    height: fit-content;
+    background-color: white;
+    padding: 1.5em;
+    border: 1px solid black;
+    margin-bottom: 1.5em;
+}
+input{
+    width: 100%;
+}
+input[type="submit"]{
+    margin-top: 0.5em;
+    height: 2em;
+}
